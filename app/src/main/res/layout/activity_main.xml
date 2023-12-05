@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+
+
+
+
+    <Button
+           android:id="@+id/btn1"
+           android:onClick="Check"/>
+       <Button
+           android:layout_marginLeft="11dp"
+           android:id="@+id/btn2"
+           android:onClick="Check"/>
+       <Button
+           android:layout_marginLeft="11dp"
+           android:id="@+id/btn3"
+           android:onClick="Check"/>
+       <Button
+           android:id="@+id/btn4"
+           android:onClick="Check"/>
+       <Button
+           android:layout_marginLeft="11dp"
+           android:id="@+id/btn5"
+           android:onClick="Check"/>
+       <Button
+           android:layout_marginLeft="11dp"
+           android:id="@+id/btn6"
+           android:onClick="Check"/>
+       <Button
+           android:id="@+id/btn7"
+           android:onClick="Check"/>
+       <Button
+           android:layout_marginLeft="11dp"
+           android:id="@+id/btn8"
+           android:onClick="Check"/>
+       <Button
+           android:layout_marginLeft="11dp"
+           android:id="@+id/btn9"
+           android:onClick="Check"/>
+        <Button
+            android:id="@+id/Restartbtn"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:onClick="restart"
+            android:text="Restart" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scorex"
+            android:layout_marginLeft="11dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scorey"
+            android:layout_marginLeft="11dp">
+
+        </TextView>
+
+
+
+
+</GridLayout>
+
+
+</LinearLayout>
